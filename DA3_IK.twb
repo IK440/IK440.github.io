@@ -1,0 +1,2839 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20221.22.1017.0914                               -->
+<workbook original-version='18.1' source-build='2022.1.8 (20221.22.1017.0914)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Financials (Discount_Goods_Big_Store_Financials)' inline='true' name='federated.19pr6nf0qjf0zd0zodcq814mfelz' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Discount_Goods_Big_Store_Financials' name='excel-direct.08heozj1e1ucre10ega5k0xnvm2p'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/ik_4275/Downloads/Discount_Goods_Big_Store_Financials.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.08heozj1e1ucre10ega5k0xnvm2p' name='Financials' table='[Financials$]' type='table'>
+          <columns gridOrigin='A1:CP21:no:A1:CP21:0' header='yes' outcome='2'>
+            <column datatype='string' name='Company' ordinal='0' />
+            <column datatype='integer' name='Year' ordinal='1' />
+            <column datatype='real' name='Cash and cash equivalents' ordinal='2' />
+            <column datatype='real' name='Receivables, net' ordinal='3' />
+            <column datatype='real' name='Inventory' ordinal='4' />
+            <column datatype='real' name='Assets of discontinued operations' ordinal='5' />
+            <column datatype='real' name='Prepaid expenses and other' ordinal='6' />
+            <column datatype='real' name='Total current assets' ordinal='7' />
+            <column datatype='real' name='Average accounts receivable (net)' ordinal='8' />
+            <column datatype='real' name='Land' ordinal='9' />
+            <column datatype='real' name='Buildings and improvements' ordinal='10' />
+            <column datatype='real' name='Fixtures and equipment' ordinal='11' />
+            <column datatype='real' name='Computer hardware and software' ordinal='12' />
+            <column datatype='real' name='Construction-in-progress' ordinal='13' />
+            <column datatype='real' name='Less accumulated depreciation' ordinal='14' />
+            <column datatype='real' name='Property and equipment, net' ordinal='15' />
+            <column datatype='real' name='Goodwill' ordinal='16' />
+            <column datatype='integer' name='Right of use asset - operating net,' ordinal='17' />
+            <column datatype='integer' name='Right of use asset - finance, net' ordinal='18' />
+            <column datatype='real' name='Property under capital lease' ordinal='19' />
+            <column datatype='real' name='Investments in equity securities' ordinal='20' />
+            <column datatype='real' name='Total noncurrent assets' ordinal='21' />
+            <column datatype='real' name='Total assets' ordinal='22' />
+            <column datatype='real' name='Average total assets' ordinal='23' />
+            <column datatype='real' name='Average fixed assets' ordinal='24' />
+            <column datatype='integer' name='Accounts payable' ordinal='25' />
+            <column datatype='integer' name='Accrued liabilities' ordinal='26' />
+            <column datatype='real' name='Accrued income taxes' ordinal='27' />
+            <column datatype='real' name='Current liabilities of discontinued operations' ordinal='28' />
+            <column datatype='real' name='Current portion capital lease' ordinal='29' />
+            <column datatype='real' name='Current portion of lease liability - finance lease' ordinal='30' />
+            <column datatype='real' name='Current portion of lease liability - operating lease' ordinal='31' />
+            <column datatype='real' name='Current portion of long-term debt' ordinal='32' />
+            <column datatype='real' name='Short-term borrowings' ordinal='33' />
+            <column datatype='real' name='Refund liability' ordinal='34' />
+            <column datatype='real' name='Total current liabilities' ordinal='35' />
+            <column datatype='real' name='Long-term debt' ordinal='36' />
+            <column datatype='real' name='Capital lease liability' ordinal='37' />
+            <column datatype='integer' name='Lease liability - operating lease' ordinal='38' />
+            <column datatype='integer' name='Lease liability - finance lease' ordinal='39' />
+            <column datatype='real' name='Deferred income taxes' ordinal='40' />
+            <column datatype='real' name='Total noncurrent liabilities' ordinal='41' />
+            <column datatype='real' name='Total liabilities (Cur + noncur)' ordinal='42' />
+            <column datatype='real' name='Common stock' ordinal='43' />
+            <column datatype='real' name='Additional paid-in capital' ordinal='44' />
+            <column datatype='real' name='Retained earnings' ordinal='45' />
+            <column datatype='real' name='Accumulated other comprehensive income(loss)' ordinal='46' />
+            <column datatype='real' name='Total shareholders&apos; equity' ordinal='47' />
+            <column datatype='real' name='Total liabilities and equity' ordinal='48' />
+            <column datatype='real' name='Accounts payable (CF)' ordinal='49' />
+            <column datatype='real' name='Accrued income taxes (CF)' ordinal='50' />
+            <column datatype='real' name='Accrued liabilities (CF)' ordinal='51' />
+            <column datatype='real' name='(CF)-Cash &amp; cash equivalents, beginning of year' ordinal='52' />
+            <column datatype='real' name='(CF)-Cash &amp; cash equivalents, end of year' ordinal='53' />
+            <column datatype='real' name='Change in accounts receivable' ordinal='54' />
+            <column datatype='real' name='Deferred income taxes (CF)' ordinal='55' />
+            <column datatype='real' name='Depreciation and amortization (CF)' ordinal='56' />
+            <column datatype='real' name='Dividends paid' ordinal='57' />
+            <column datatype='real' name='Income from continuing operations' ordinal='58' />
+            <column datatype='real' name='Inventories (CF)' ordinal='59' />
+            <column datatype='real' name='Investment and business acquisitions, net of cash acquired' ordinal='60' />
+            <column datatype='real' name='Net (decrease) / increase in cash and cash equivalents' ordinal='61' />
+            <column datatype='real' name='Net cash flows from financing activities' ordinal='62' />
+            <column datatype='real' name='Net cash flows from investing activities' ordinal='63' />
+            <column datatype='real' name='Net cash flows from operating activities' ordinal='64' />
+            <column datatype='real' name='Net change in short-term borrowings' ordinal='65' />
+            <column datatype='integer' name='Other financing activities' ordinal='66' />
+            <column datatype='real' name='Other investing activities' ordinal='67' />
+            <column datatype='real' name='Other operating activities' ordinal='68' />
+            <column datatype='real' name='Payments for property and equipment' ordinal='69' />
+            <column datatype='real' name='Payments of long-term debt' ordinal='70' />
+            <column datatype='real' name='Proceeds from disposal of property and equipment' ordinal='71' />
+            <column datatype='real' name='Proceeds from issuance of long-term debt' ordinal='72' />
+            <column datatype='real' name='Purchase of available for sale securities' ordinal='73' />
+            <column datatype='real' name='Purchase of Treasury stock' ordinal='74' />
+            <column datatype='real' name='(CF) Accounts Receivables, net' ordinal='75' />
+            <column datatype='real' name='Stock option exercises' ordinal='76' />
+            <column datatype='real' name='Cost of sales' ordinal='77' />
+            <column datatype='integer' name='Sales revenue' ordinal='78' />
+            <column datatype='real' name='Credit card revenue' ordinal='79' />
+            <column datatype='real' name='Less Sales returns' ordinal='80' />
+            <column datatype='integer' name='Less Discount on Sales' ordinal='81' />
+            <column datatype='real' name='Net sales' ordinal='82' />
+            <column datatype='real' name='Depreciation and amortization' ordinal='83' />
+            <column datatype='real' name='Discontinued operations, net of tax' ordinal='84' />
+            <column datatype='real' name='EBIT' ordinal='85' />
+            <column datatype='integer' name='Gain on sale' ordinal='86' />
+            <column datatype='real' name='Gross margin' ordinal='87' />
+            <column datatype='real' name='Income from continuing operations 1' ordinal='88' />
+            <column datatype='real' name='Interest income' ordinal='89' />
+            <column datatype='real' name='Net income / (loss)' ordinal='90' />
+            <column datatype='real' name='Provision for income taxes' ordinal='91' />
+            <column datatype='real' name='Selling, general and administrative expenses' ordinal='92' />
+            <column datatype='real' name='Interest expense' ordinal='93' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.08heozj1e1ucre10ega5k0xnvm2p' name='Financials' table='[Financials$]' type='table'>
+          <columns gridOrigin='A1:CP21:no:A1:CP21:0' header='yes' outcome='2'>
+            <column datatype='string' name='Company' ordinal='0' />
+            <column datatype='integer' name='Year' ordinal='1' />
+            <column datatype='real' name='Cash and cash equivalents' ordinal='2' />
+            <column datatype='real' name='Receivables, net' ordinal='3' />
+            <column datatype='real' name='Inventory' ordinal='4' />
+            <column datatype='real' name='Assets of discontinued operations' ordinal='5' />
+            <column datatype='real' name='Prepaid expenses and other' ordinal='6' />
+            <column datatype='real' name='Total current assets' ordinal='7' />
+            <column datatype='real' name='Average accounts receivable (net)' ordinal='8' />
+            <column datatype='real' name='Land' ordinal='9' />
+            <column datatype='real' name='Buildings and improvements' ordinal='10' />
+            <column datatype='real' name='Fixtures and equipment' ordinal='11' />
+            <column datatype='real' name='Computer hardware and software' ordinal='12' />
+            <column datatype='real' name='Construction-in-progress' ordinal='13' />
+            <column datatype='real' name='Less accumulated depreciation' ordinal='14' />
+            <column datatype='real' name='Property and equipment, net' ordinal='15' />
+            <column datatype='real' name='Goodwill' ordinal='16' />
+            <column datatype='integer' name='Right of use asset - operating net,' ordinal='17' />
+            <column datatype='integer' name='Right of use asset - finance, net' ordinal='18' />
+            <column datatype='real' name='Property under capital lease' ordinal='19' />
+            <column datatype='real' name='Investments in equity securities' ordinal='20' />
+            <column datatype='real' name='Total noncurrent assets' ordinal='21' />
+            <column datatype='real' name='Total assets' ordinal='22' />
+            <column datatype='real' name='Average total assets' ordinal='23' />
+            <column datatype='real' name='Average fixed assets' ordinal='24' />
+            <column datatype='integer' name='Accounts payable' ordinal='25' />
+            <column datatype='integer' name='Accrued liabilities' ordinal='26' />
+            <column datatype='real' name='Accrued income taxes' ordinal='27' />
+            <column datatype='real' name='Current liabilities of discontinued operations' ordinal='28' />
+            <column datatype='real' name='Current portion capital lease' ordinal='29' />
+            <column datatype='real' name='Current portion of lease liability - finance lease' ordinal='30' />
+            <column datatype='real' name='Current portion of lease liability - operating lease' ordinal='31' />
+            <column datatype='real' name='Current portion of long-term debt' ordinal='32' />
+            <column datatype='real' name='Short-term borrowings' ordinal='33' />
+            <column datatype='real' name='Refund liability' ordinal='34' />
+            <column datatype='real' name='Total current liabilities' ordinal='35' />
+            <column datatype='real' name='Long-term debt' ordinal='36' />
+            <column datatype='real' name='Capital lease liability' ordinal='37' />
+            <column datatype='integer' name='Lease liability - operating lease' ordinal='38' />
+            <column datatype='integer' name='Lease liability - finance lease' ordinal='39' />
+            <column datatype='real' name='Deferred income taxes' ordinal='40' />
+            <column datatype='real' name='Total noncurrent liabilities' ordinal='41' />
+            <column datatype='real' name='Total liabilities (Cur + noncur)' ordinal='42' />
+            <column datatype='real' name='Common stock' ordinal='43' />
+            <column datatype='real' name='Additional paid-in capital' ordinal='44' />
+            <column datatype='real' name='Retained earnings' ordinal='45' />
+            <column datatype='real' name='Accumulated other comprehensive income(loss)' ordinal='46' />
+            <column datatype='real' name='Total shareholders&apos; equity' ordinal='47' />
+            <column datatype='real' name='Total liabilities and equity' ordinal='48' />
+            <column datatype='real' name='Accounts payable (CF)' ordinal='49' />
+            <column datatype='real' name='Accrued income taxes (CF)' ordinal='50' />
+            <column datatype='real' name='Accrued liabilities (CF)' ordinal='51' />
+            <column datatype='real' name='(CF)-Cash &amp; cash equivalents, beginning of year' ordinal='52' />
+            <column datatype='real' name='(CF)-Cash &amp; cash equivalents, end of year' ordinal='53' />
+            <column datatype='real' name='Change in accounts receivable' ordinal='54' />
+            <column datatype='real' name='Deferred income taxes (CF)' ordinal='55' />
+            <column datatype='real' name='Depreciation and amortization (CF)' ordinal='56' />
+            <column datatype='real' name='Dividends paid' ordinal='57' />
+            <column datatype='real' name='Income from continuing operations' ordinal='58' />
+            <column datatype='real' name='Inventories (CF)' ordinal='59' />
+            <column datatype='real' name='Investment and business acquisitions, net of cash acquired' ordinal='60' />
+            <column datatype='real' name='Net (decrease) / increase in cash and cash equivalents' ordinal='61' />
+            <column datatype='real' name='Net cash flows from financing activities' ordinal='62' />
+            <column datatype='real' name='Net cash flows from investing activities' ordinal='63' />
+            <column datatype='real' name='Net cash flows from operating activities' ordinal='64' />
+            <column datatype='real' name='Net change in short-term borrowings' ordinal='65' />
+            <column datatype='integer' name='Other financing activities' ordinal='66' />
+            <column datatype='real' name='Other investing activities' ordinal='67' />
+            <column datatype='real' name='Other operating activities' ordinal='68' />
+            <column datatype='real' name='Payments for property and equipment' ordinal='69' />
+            <column datatype='real' name='Payments of long-term debt' ordinal='70' />
+            <column datatype='real' name='Proceeds from disposal of property and equipment' ordinal='71' />
+            <column datatype='real' name='Proceeds from issuance of long-term debt' ordinal='72' />
+            <column datatype='real' name='Purchase of available for sale securities' ordinal='73' />
+            <column datatype='real' name='Purchase of Treasury stock' ordinal='74' />
+            <column datatype='real' name='(CF) Accounts Receivables, net' ordinal='75' />
+            <column datatype='real' name='Stock option exercises' ordinal='76' />
+            <column datatype='real' name='Cost of sales' ordinal='77' />
+            <column datatype='integer' name='Sales revenue' ordinal='78' />
+            <column datatype='real' name='Credit card revenue' ordinal='79' />
+            <column datatype='real' name='Less Sales returns' ordinal='80' />
+            <column datatype='integer' name='Less Discount on Sales' ordinal='81' />
+            <column datatype='real' name='Net sales' ordinal='82' />
+            <column datatype='real' name='Depreciation and amortization' ordinal='83' />
+            <column datatype='real' name='Discontinued operations, net of tax' ordinal='84' />
+            <column datatype='real' name='EBIT' ordinal='85' />
+            <column datatype='integer' name='Gain on sale' ordinal='86' />
+            <column datatype='real' name='Gross margin' ordinal='87' />
+            <column datatype='real' name='Income from continuing operations 1' ordinal='88' />
+            <column datatype='real' name='Interest income' ordinal='89' />
+            <column datatype='real' name='Net income / (loss)' ordinal='90' />
+            <column datatype='real' name='Provision for income taxes' ordinal='91' />
+            <column datatype='real' name='Selling, general and administrative expenses' ordinal='92' />
+            <column datatype='real' name='Interest expense' ordinal='93' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:CP21:no:A1:CP21:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Company</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Company]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Company</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cash and cash equivalents</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Cash and cash equivalents]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Cash and cash equivalents</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Receivables, net</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Receivables, net]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Receivables, net</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Inventory</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Inventory]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Inventory</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Assets of discontinued operations</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Assets of discontinued operations]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Assets of discontinued operations</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Prepaid expenses and other</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Prepaid expenses and other]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Prepaid expenses and other</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total current assets</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total current assets]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Total current assets</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average accounts receivable (net)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average accounts receivable (net)]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Average accounts receivable (net)</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Land</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Land]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Land</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Buildings and improvements</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Buildings and improvements]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Buildings and improvements</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fixtures and equipment</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Fixtures and equipment]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Fixtures and equipment</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Computer hardware and software</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Computer hardware and software]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Computer hardware and software</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Construction-in-progress</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Construction-in-progress]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Construction-in-progress</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Less accumulated depreciation</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Less accumulated depreciation]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Less accumulated depreciation</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Property and equipment, net</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Property and equipment, net]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Property and equipment, net</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Goodwill</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Goodwill]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Goodwill</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Right of use asset - operating net,</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Right of use asset - operating net,]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Right of use asset - operating net,</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Right of use asset - finance, net</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Right of use asset - finance, net]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Right of use asset - finance, net</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Property under capital lease</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Property under capital lease]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Property under capital lease</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Investments in equity securities</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Investments in equity securities]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Investments in equity securities</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total noncurrent assets</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total noncurrent assets]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Total noncurrent assets</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total assets</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total assets]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Total assets</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average total assets</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average total assets]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Average total assets</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average fixed assets</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average fixed assets]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Average fixed assets</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Accounts payable</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Accounts payable]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Accounts payable</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Accrued liabilities</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Accrued liabilities]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Accrued liabilities</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Accrued income taxes</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Accrued income taxes]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Accrued income taxes</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Current liabilities of discontinued operations</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Current liabilities of discontinued operations]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Current liabilities of discontinued operations</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Current portion capital lease</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Current portion capital lease]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Current portion capital lease</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Current portion of lease liability - finance lease</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Current portion of lease liability - finance lease]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Current portion of lease liability - finance lease</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Current portion of lease liability - operating lease</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Current portion of lease liability - operating lease]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Current portion of lease liability - operating lease</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Current portion of long-term debt</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Current portion of long-term debt]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Current portion of long-term debt</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Short-term borrowings</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Short-term borrowings]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Short-term borrowings</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Refund liability</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Refund liability]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Refund liability</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total current liabilities</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total current liabilities]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Total current liabilities</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Long-term debt</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Long-term debt]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Long-term debt</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Capital lease liability</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Capital lease liability]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Capital lease liability</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Lease liability - operating lease</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Lease liability - operating lease]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Lease liability - operating lease</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Lease liability - finance lease</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Lease liability - finance lease]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Lease liability - finance lease</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Deferred income taxes</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Deferred income taxes]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Deferred income taxes</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total noncurrent liabilities</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total noncurrent liabilities]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Total noncurrent liabilities</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total liabilities (Cur + noncur)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total liabilities (Cur + noncur)]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Total liabilities (Cur + noncur)</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Common stock</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Common stock]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Common stock</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Additional paid-in capital</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Additional paid-in capital]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Additional paid-in capital</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Retained earnings</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Retained earnings]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Retained earnings</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Accumulated other comprehensive income(loss)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Accumulated other comprehensive income(loss)]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Accumulated other comprehensive income(loss)</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total shareholders&apos; equity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total shareholders&apos; equity]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Total shareholders&apos; equity</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total liabilities and equity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total liabilities and equity]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Total liabilities and equity</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Accounts payable (CF)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Accounts payable (CF)]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Accounts payable (CF)</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Accrued income taxes (CF)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Accrued income taxes (CF)]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Accrued income taxes (CF)</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Accrued liabilities (CF)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Accrued liabilities (CF)]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Accrued liabilities (CF)</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>(CF)-Cash &amp; cash equivalents, beginning of year</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[(CF)-Cash &amp; cash equivalents, beginning of year]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>(CF)-Cash &amp; cash equivalents, beginning of year</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>(CF)-Cash &amp; cash equivalents, end of year</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[(CF)-Cash &amp; cash equivalents, end of year]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>(CF)-Cash &amp; cash equivalents, end of year</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Change in accounts receivable</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Change in accounts receivable]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Change in accounts receivable</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Deferred income taxes (CF)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Deferred income taxes (CF)]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Deferred income taxes (CF)</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Depreciation and amortization (CF)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Depreciation and amortization (CF)]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Depreciation and amortization (CF)</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dividends paid</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Dividends paid]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Dividends paid</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Income from continuing operations</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Income from continuing operations]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Income from continuing operations</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Inventories (CF)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Inventories (CF)]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Inventories (CF)</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Investment and business acquisitions, net of cash acquired</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Investment and business acquisitions, net of cash acquired]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Investment and business acquisitions, net of cash acquired</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Net (decrease) / increase in cash and cash equivalents</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Net (decrease) / increase in cash and cash equivalents]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Net (decrease) / increase in cash and cash equivalents</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Net cash flows from financing activities</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Net cash flows from financing activities]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Net cash flows from financing activities</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Net cash flows from investing activities</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Net cash flows from investing activities]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Net cash flows from investing activities</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Net cash flows from operating activities</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Net cash flows from operating activities]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Net cash flows from operating activities</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Net change in short-term borrowings</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Net change in short-term borrowings]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Net change in short-term borrowings</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Other financing activities</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Other financing activities]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Other financing activities</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Other investing activities</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Other investing activities]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Other investing activities</remote-alias>
+            <ordinal>67</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Other operating activities</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Other operating activities]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Other operating activities</remote-alias>
+            <ordinal>68</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Payments for property and equipment</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Payments for property and equipment]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Payments for property and equipment</remote-alias>
+            <ordinal>69</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Payments of long-term debt</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Payments of long-term debt]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Payments of long-term debt</remote-alias>
+            <ordinal>70</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Proceeds from disposal of property and equipment</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Proceeds from disposal of property and equipment]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Proceeds from disposal of property and equipment</remote-alias>
+            <ordinal>71</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Proceeds from issuance of long-term debt</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Proceeds from issuance of long-term debt]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Proceeds from issuance of long-term debt</remote-alias>
+            <ordinal>72</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Purchase of available for sale securities</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Purchase of available for sale securities]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Purchase of available for sale securities</remote-alias>
+            <ordinal>73</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Purchase of Treasury stock</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Purchase of Treasury stock]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Purchase of Treasury stock</remote-alias>
+            <ordinal>74</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>(CF) Accounts Receivables, net</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[(CF) Accounts Receivables, net]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>(CF) Accounts Receivables, net</remote-alias>
+            <ordinal>75</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Stock option exercises</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Stock option exercises]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Stock option exercises</remote-alias>
+            <ordinal>76</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cost of sales</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Cost of sales]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Cost of sales</remote-alias>
+            <ordinal>77</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sales revenue</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sales revenue]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Sales revenue</remote-alias>
+            <ordinal>78</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Credit card revenue</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Credit card revenue]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Credit card revenue</remote-alias>
+            <ordinal>79</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Less Sales returns</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Less Sales returns]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Less Sales returns</remote-alias>
+            <ordinal>80</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Less Discount on Sales</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Less Discount on Sales]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Less Discount on Sales</remote-alias>
+            <ordinal>81</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Net sales</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Net sales]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Net sales</remote-alias>
+            <ordinal>82</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Depreciation and amortization</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Depreciation and amortization]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Depreciation and amortization</remote-alias>
+            <ordinal>83</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Discontinued operations, net of tax</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Discontinued operations, net of tax]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Discontinued operations, net of tax</remote-alias>
+            <ordinal>84</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EBIT</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[EBIT]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>EBIT</remote-alias>
+            <ordinal>85</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gain on sale</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Gain on sale]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Gain on sale</remote-alias>
+            <ordinal>86</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gross margin</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Gross margin]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Gross margin</remote-alias>
+            <ordinal>87</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Income from continuing operations 1</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Income from continuing operations 1]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Income from continuing operations 1</remote-alias>
+            <ordinal>88</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Interest income</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Interest income]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Interest income</remote-alias>
+            <ordinal>89</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Net income / (loss)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Net income / (loss)]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Net income / (loss)</remote-alias>
+            <ordinal>90</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Provision for income taxes</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Provision for income taxes]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Provision for income taxes</remote-alias>
+            <ordinal>91</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Selling, general and administrative expenses</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Selling, general and administrative expenses]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Selling, general and administrative expenses</remote-alias>
+            <ordinal>92</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Interest expense</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Interest expense]</local-name>
+            <parent-name>[Financials]</parent-name>
+            <remote-alias>Interest expense</remote-alias>
+            <ordinal>93</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Quick Assets' datatype='real' name='[Calculation_5207287115844321280]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Cash and cash equivalents] + [Receivables, net]' />
+      </column>
+      <column caption='Current Ratio' datatype='real' name='[Calculation_5207287115845201921]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Total current assets]/[Total current liabilities]' />
+      </column>
+      <column caption='Quick Ratio ' datatype='real' default-format='n#,##0.000;-#,##0.000' name='[Calculation_5207287115845582850]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Calculation_5207287115844321280]/[Total current liabilities]' />
+      </column>
+      <column caption='Ebit' datatype='real' name='[EBIT]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Financials' datatype='table' name='[__tableau_internal_object_id__].[Financials_6CB5191AD91E48BA8B4BBB85C2DC7205]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Financials' id='Financials_6CB5191AD91E48BA8B4BBB85C2DC7205'>
+            <properties context=''>
+              <relation connection='excel-direct.08heozj1e1ucre10ega5k0xnvm2p' name='Financials' table='[Financials$]' type='table'>
+                <columns gridOrigin='A1:CP21:no:A1:CP21:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Company' ordinal='0' />
+                  <column datatype='integer' name='Year' ordinal='1' />
+                  <column datatype='real' name='Cash and cash equivalents' ordinal='2' />
+                  <column datatype='real' name='Receivables, net' ordinal='3' />
+                  <column datatype='real' name='Inventory' ordinal='4' />
+                  <column datatype='real' name='Assets of discontinued operations' ordinal='5' />
+                  <column datatype='real' name='Prepaid expenses and other' ordinal='6' />
+                  <column datatype='real' name='Total current assets' ordinal='7' />
+                  <column datatype='real' name='Average accounts receivable (net)' ordinal='8' />
+                  <column datatype='real' name='Land' ordinal='9' />
+                  <column datatype='real' name='Buildings and improvements' ordinal='10' />
+                  <column datatype='real' name='Fixtures and equipment' ordinal='11' />
+                  <column datatype='real' name='Computer hardware and software' ordinal='12' />
+                  <column datatype='real' name='Construction-in-progress' ordinal='13' />
+                  <column datatype='real' name='Less accumulated depreciation' ordinal='14' />
+                  <column datatype='real' name='Property and equipment, net' ordinal='15' />
+                  <column datatype='real' name='Goodwill' ordinal='16' />
+                  <column datatype='integer' name='Right of use asset - operating net,' ordinal='17' />
+                  <column datatype='integer' name='Right of use asset - finance, net' ordinal='18' />
+                  <column datatype='real' name='Property under capital lease' ordinal='19' />
+                  <column datatype='real' name='Investments in equity securities' ordinal='20' />
+                  <column datatype='real' name='Total noncurrent assets' ordinal='21' />
+                  <column datatype='real' name='Total assets' ordinal='22' />
+                  <column datatype='real' name='Average total assets' ordinal='23' />
+                  <column datatype='real' name='Average fixed assets' ordinal='24' />
+                  <column datatype='integer' name='Accounts payable' ordinal='25' />
+                  <column datatype='integer' name='Accrued liabilities' ordinal='26' />
+                  <column datatype='real' name='Accrued income taxes' ordinal='27' />
+                  <column datatype='real' name='Current liabilities of discontinued operations' ordinal='28' />
+                  <column datatype='real' name='Current portion capital lease' ordinal='29' />
+                  <column datatype='real' name='Current portion of lease liability - finance lease' ordinal='30' />
+                  <column datatype='real' name='Current portion of lease liability - operating lease' ordinal='31' />
+                  <column datatype='real' name='Current portion of long-term debt' ordinal='32' />
+                  <column datatype='real' name='Short-term borrowings' ordinal='33' />
+                  <column datatype='real' name='Refund liability' ordinal='34' />
+                  <column datatype='real' name='Total current liabilities' ordinal='35' />
+                  <column datatype='real' name='Long-term debt' ordinal='36' />
+                  <column datatype='real' name='Capital lease liability' ordinal='37' />
+                  <column datatype='integer' name='Lease liability - operating lease' ordinal='38' />
+                  <column datatype='integer' name='Lease liability - finance lease' ordinal='39' />
+                  <column datatype='real' name='Deferred income taxes' ordinal='40' />
+                  <column datatype='real' name='Total noncurrent liabilities' ordinal='41' />
+                  <column datatype='real' name='Total liabilities (Cur + noncur)' ordinal='42' />
+                  <column datatype='real' name='Common stock' ordinal='43' />
+                  <column datatype='real' name='Additional paid-in capital' ordinal='44' />
+                  <column datatype='real' name='Retained earnings' ordinal='45' />
+                  <column datatype='real' name='Accumulated other comprehensive income(loss)' ordinal='46' />
+                  <column datatype='real' name='Total shareholders&apos; equity' ordinal='47' />
+                  <column datatype='real' name='Total liabilities and equity' ordinal='48' />
+                  <column datatype='real' name='Accounts payable (CF)' ordinal='49' />
+                  <column datatype='real' name='Accrued income taxes (CF)' ordinal='50' />
+                  <column datatype='real' name='Accrued liabilities (CF)' ordinal='51' />
+                  <column datatype='real' name='(CF)-Cash &amp; cash equivalents, beginning of year' ordinal='52' />
+                  <column datatype='real' name='(CF)-Cash &amp; cash equivalents, end of year' ordinal='53' />
+                  <column datatype='real' name='Change in accounts receivable' ordinal='54' />
+                  <column datatype='real' name='Deferred income taxes (CF)' ordinal='55' />
+                  <column datatype='real' name='Depreciation and amortization (CF)' ordinal='56' />
+                  <column datatype='real' name='Dividends paid' ordinal='57' />
+                  <column datatype='real' name='Income from continuing operations' ordinal='58' />
+                  <column datatype='real' name='Inventories (CF)' ordinal='59' />
+                  <column datatype='real' name='Investment and business acquisitions, net of cash acquired' ordinal='60' />
+                  <column datatype='real' name='Net (decrease) / increase in cash and cash equivalents' ordinal='61' />
+                  <column datatype='real' name='Net cash flows from financing activities' ordinal='62' />
+                  <column datatype='real' name='Net cash flows from investing activities' ordinal='63' />
+                  <column datatype='real' name='Net cash flows from operating activities' ordinal='64' />
+                  <column datatype='real' name='Net change in short-term borrowings' ordinal='65' />
+                  <column datatype='integer' name='Other financing activities' ordinal='66' />
+                  <column datatype='real' name='Other investing activities' ordinal='67' />
+                  <column datatype='real' name='Other operating activities' ordinal='68' />
+                  <column datatype='real' name='Payments for property and equipment' ordinal='69' />
+                  <column datatype='real' name='Payments of long-term debt' ordinal='70' />
+                  <column datatype='real' name='Proceeds from disposal of property and equipment' ordinal='71' />
+                  <column datatype='real' name='Proceeds from issuance of long-term debt' ordinal='72' />
+                  <column datatype='real' name='Purchase of available for sale securities' ordinal='73' />
+                  <column datatype='real' name='Purchase of Treasury stock' ordinal='74' />
+                  <column datatype='real' name='(CF) Accounts Receivables, net' ordinal='75' />
+                  <column datatype='real' name='Stock option exercises' ordinal='76' />
+                  <column datatype='real' name='Cost of sales' ordinal='77' />
+                  <column datatype='integer' name='Sales revenue' ordinal='78' />
+                  <column datatype='real' name='Credit card revenue' ordinal='79' />
+                  <column datatype='real' name='Less Sales returns' ordinal='80' />
+                  <column datatype='integer' name='Less Discount on Sales' ordinal='81' />
+                  <column datatype='real' name='Net sales' ordinal='82' />
+                  <column datatype='real' name='Depreciation and amortization' ordinal='83' />
+                  <column datatype='real' name='Discontinued operations, net of tax' ordinal='84' />
+                  <column datatype='real' name='EBIT' ordinal='85' />
+                  <column datatype='integer' name='Gain on sale' ordinal='86' />
+                  <column datatype='real' name='Gross margin' ordinal='87' />
+                  <column datatype='real' name='Income from continuing operations 1' ordinal='88' />
+                  <column datatype='real' name='Interest income' ordinal='89' />
+                  <column datatype='real' name='Net income / (loss)' ordinal='90' />
+                  <column datatype='real' name='Provision for income taxes' ordinal='91' />
+                  <column datatype='real' name='Selling, general and administrative expenses' ordinal='92' />
+                  <column datatype='real' name='Interest expense' ordinal='93' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Liquidity'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#000000' fontname='Times New Roman' fontsize='20'>Liquidity</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Financials (Discount_Goods_Big_Store_Financials)' name='federated.19pr6nf0qjf0zd0zodcq814mfelz' />
+          </datasources>
+          <datasource-dependencies datasource='federated.19pr6nf0qjf0zd0zodcq814mfelz'>
+            <column caption='Quick Assets' datatype='real' name='[Calculation_5207287115844321280]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Cash and cash equivalents] + [Receivables, net]' />
+            </column>
+            <column caption='Current Ratio' datatype='real' name='[Calculation_5207287115845201921]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Total current assets]/[Total current liabilities]' />
+            </column>
+            <column caption='Quick Ratio ' datatype='real' default-format='n#,##0.000;-#,##0.000' name='[Calculation_5207287115845582850]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Calculation_5207287115844321280]/[Total current liabilities]' />
+            </column>
+            <column datatype='real' name='[Cash and cash equivalents]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Company]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Receivables, net]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Total current assets]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Total current liabilities]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Company]' derivation='None' name='[none:Company:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_5207287115845201921]' derivation='Sum' name='[sum:Calculation_5207287115845201921:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_5207287115845582850]' derivation='Sum' name='[sum:Calculation_5207287115845582850:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='field-labels'>
+            <format attr='font-family' value='Times New Roman' />
+            <format attr='font-weight' value='bold' />
+            <format attr='color' value='#000000' />
+            <format attr='font-size' value='10' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-family' field='[federated.19pr6nf0qjf0zd0zodcq814mfelz].[sum:Calculation_5207287115845201921:qk]' value='Times New Roman' />
+            <format attr='font-size' field='[federated.19pr6nf0qjf0zd0zodcq814mfelz].[sum:Calculation_5207287115845201921:qk]' value='10' />
+            <format attr='font-weight' field='[federated.19pr6nf0qjf0zd0zodcq814mfelz].[sum:Calculation_5207287115845201921:qk]' value='bold' />
+            <format attr='text-format' field='[federated.19pr6nf0qjf0zd0zodcq814mfelz].[sum:Calculation_5207287115845201921:qk]' value='n#,##0.000;-#,##0.000' />
+            <format attr='font-family' field='[federated.19pr6nf0qjf0zd0zodcq814mfelz].[sum:Calculation_5207287115845582850:qk]' value='Times New Roman' />
+            <format attr='font-size' field='[federated.19pr6nf0qjf0zd0zodcq814mfelz].[sum:Calculation_5207287115845582850:qk]' value='10' />
+            <format attr='font-weight' field='[federated.19pr6nf0qjf0zd0zodcq814mfelz].[sum:Calculation_5207287115845582850:qk]' value='bold' />
+            <format attr='color' field='[federated.19pr6nf0qjf0zd0zodcq814mfelz].[sum:Calculation_5207287115845582850:qk]' value='#000000' />
+            <format attr='color' field='[federated.19pr6nf0qjf0zd0zodcq814mfelz].[sum:Calculation_5207287115845201921:qk]' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.19pr6nf0qjf0zd0zodcq814mfelz].[none:Company:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='user' />
+                <format attr='font-family' value='Times New Roman' />
+                <format attr='font-size' value='10' />
+                <format attr='font-weight' value='bold' />
+                <format attr='color' value='#000000' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.19pr6nf0qjf0zd0zodcq814mfelz].[sum:Calculation_5207287115845201921:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.19pr6nf0qjf0zd0zodcq814mfelz].[none:Company:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='user' />
+                <format attr='font-family' value='Times New Roman' />
+                <format attr='font-size' value='10' />
+                <format attr='font-weight' value='bold' />
+                <format attr='color' value='#000000' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.19pr6nf0qjf0zd0zodcq814mfelz].[sum:Calculation_5207287115845582850:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.19pr6nf0qjf0zd0zodcq814mfelz].[none:Company:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='user' />
+                <format attr='font-family' value='Times New Roman' />
+                <format attr='font-size' value='10' />
+                <format attr='font-weight' value='bold' />
+                <format attr='color' value='#000000' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.19pr6nf0qjf0zd0zodcq814mfelz].[sum:Calculation_5207287115845201921:qk] + [federated.19pr6nf0qjf0zd0zodcq814mfelz].[sum:Calculation_5207287115845582850:qk])</rows>
+        <cols>[federated.19pr6nf0qjf0zd0zodcq814mfelz].[none:Year:ok]</cols>
+      </table>
+      <simple-id uuid='{86F6C433-E8CA-4187-A09E-5656F5A5B9CE}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Liquidity'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.19pr6nf0qjf0zd0zodcq814mfelz].[none:Company:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.19pr6nf0qjf0zd0zodcq814mfelz].[none:Company:nk]</field>
+            <field>[federated.19pr6nf0qjf0zd0zodcq814mfelz].[none:Year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{8A1534BD-3567-44FD-9BE7-A177AF8FBE42}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='384' name='Liquidity' width='384'>
+      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
+      yeuopfFfD6AEhKEYA1FMAWAKQjEFNK2mNQaimJr+YQr4+pxAMAU2tSQMfih6v6b/DWYwfP1x
+      G01XVb1uXFnvNk331PthnvEMum6D2uR7C9+5aRJAc0Gx5h6tb9vSsX///vz5z3/mnXfeISsr
+      i7vvvpvU1FQArQrp5YNaomO5tICcoijXLCh3tQqxOp2uzVaNtwVF9/UmOAkzMCbMQHXZ8FYX
+      4j61HWfGG9/s5+BqRK1pvLwW4Pf5CU31pnSGpnpSX/+PztC0ZqE5cbRIIoEoxoBvPtbOCWhK
+      KHo/FIMJ9CZcxz7Elf0hamNTqXa/Sb9G3ydZBn1/AG6aBNC7d29CQ0NpaGjA4/EwfPhwPvzw
+      Q4xGI3PmzNH60Zv70pcsWcKqVavIy8tj0aJFVFZWat0IMTExhId/W0VDIXxHMfqjj0hAF94P
+      PE6cx9aj8++C36THUIIiUV0N4GxA/fofzgZUV+M3Hzsbvj7n66+57U3lxT1O8DhRPU5wNTZ9
+      zhXFZb9HgEpTkcLmpPJ1aXIAffRojEPvkYv/D8RNkwC6d+/OM888w6pVq5gyZQq33XYbS5cu
+      xWw2k5SUREZGBgkJCWzevJnbbruNNWvWUFBQwMaNGwkPD+eRRx5h6dKl7N27l+eee+6mmz0j
+      fngUnQ7TxCUYRyxEMfij+F1Hl+TX+yw3Xfxd3+w74XF9nQhslySMS5NKI6qr4bKk0tj0sdv+
+      9d4VLlS3s2XM/l1uuqJ5N7ObZhZQcy0gu92OyWRCp9Np+3Ze3j3gdru1rp5LeTwe3G63NqVU
+      CF9SVZVTp06RkZFBcnLyFYPSVVVVHDp0iKlTp2K329m1a5e2yC0hIYHY2FjS0tLQ6/Xcdttt
+      Pt9S8OugL0koTlSXDXvas3jOpaMERuB/x4voI2/xfRyiTVxXAmieU//3v/8dh8PBwoULGTdu
+      3A1r9rV1NVAh2kNpaSnJycm89NJLLFu2jH379mE2N23mc/DgQZYsWYLL5WL//v1kZGQwc+ZM
+      zGYzNTU1vPnmm3z22WcMGTKEDRs2sGjRIhYvXnxDnofqdeOttqILCEcxX3vsTXQ81zUFwOPx
+      8Pjjj1NSUkJZWRnLli2jpKSkrWMT4qa2b98+KioqmDBhAllZWezbt087NmbMGG3aKjQNZh88
+      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
+      SUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
